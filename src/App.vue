@@ -3,12 +3,14 @@ import HelloWorld from './components/HelloWorld.vue';
 import ShopStore from './components/ShopStore.vue';
 import ShopStoreMapHelper from './components/ShopStoreMapHelper.vue';
 import ShopStoreCompositionApi from './components/ShopStoreCompositionApi.vue';
+import ShopPiniaStoreCompositionApi from './components/ShopPiniaStoreCompositionApi.vue';
 </script>
 
 <template>
   <ShopStore />
   <ShopStoreMapHelper />
   <ShopStoreCompositionApi />
+  <ShopPiniaStoreCompositionApi />
 </template>
 
 <style>
